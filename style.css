@@ -445,7 +445,11 @@ a	{
 a img {
 	border: 1px solid #000;
 	}
-	
+
+#blog_title a {
+	color: #FFF;
+}
+
 #topnav a {
 	padding: 1em 1.5em 1em 1.5em;
 	}
