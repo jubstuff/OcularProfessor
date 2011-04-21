@@ -47,7 +47,7 @@
 								</span>
 			</div>
 			
-			<h1><?php bloginfo('name'); ?></h1>
+			<h1> <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
 			<p class="description"><?php bloginfo('description'); ?></p>
 			<div id="search">
 			<?php include (TEMPLATEPATH . '/searchform.php'); ?></div>
